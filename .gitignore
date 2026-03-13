@@ -1,0 +1,33 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache / bytecode
+pycache/
+*.py[cod]
+*$py.class
+
+# pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.coverage.*
+coverage.xml
+
+# Tools
+.mypy_cache/
+.ruff_cache/
+
+# IDEs/editors
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local project artifacts
+*.log
